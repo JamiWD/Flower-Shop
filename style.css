@@ -6,7 +6,8 @@ body{
 .nav-container{
     background-color: rgba(255, 192, 203, 0.268);
     display: flex;
-    padding: 0 240px;
+    padding: 0px 230px 0px 100px;
+    justify-content: space-around;
 }
 .banner{
     justify-content: center;
@@ -16,11 +17,6 @@ body{
 .title{
     font-size: 50px;
     font-weight: 600;
-}
-.logo{
-    width: 435px;
-    height: 400px;
-    padding-top: 50px;
 }
 .description{
     font-size: 15px;
@@ -32,4 +28,30 @@ body{
     padding: 15px 35px;
     font-size: 15px;
     font-weight: 500;
+}
+.logo{
+    width: 435px;
+    height: 600px;
+    padding-top: 60px;
+}
+.featured{
+    text-align: center;
+}
+.coloring-flowers{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fs{
+    border-radius: 300px 300px 0px 0px;
+    width: 200px;
+    height: 300px;
+}
+#f1{
+    background: rgba(167, 33, 98, 0.15);
+}
+#f2{
+    background: rgba(5, 151, 160, 0.15);
+}
+#f3{
+    background: rgba(71, 125, 17, 0.15);
 }
